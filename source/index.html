@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+<header class="page-header">
+  <a class="page-header__logo">
+    <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="100" height="50" alt="logo pink">
+  </a>
+  <nav class="main-nav">
+    <button class="main-nav__toggle" type="button">Открыть меню</button>
+    <ul class="main-nav__list site-list">
+      <li class="site-list__item site-list__item--active">
+        <a class="site-list__link">главная</a>
+      </li>
+      <li class="site-list__item">
+        <a class="site-list__item" href="photo.html">Фотографии</a>
+      </li>
+      <li class="site-list__item">
+        <a class="site-list__item" href="form.html">Конкурс</a>
+      </li>
+      <li class="site-list__item">
+        <a class="site-list__item" href="#">HTML Academy</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<main>
+  <section class="hero">
+    <h1 class="hero__title">Взгляните на жизнь иначе</h1>
+  </section>
+  <section class="download">
+    <a class="download__link" href="#" type="button">Скачать приложение</a>
+    <ul class="download-options">
+      <li class="download-options__item">
+        <a class="download-item__image" href="#"> <img src="placeholder" width="100" height="50" alt="download app iOS"></a>
+      </li>
+      <li class="download-options__item">
+        <a class="download-item__image" href="#"> <img src="placeholder" width="100" height="50" alt="download app Android"></a>
+      </li>
+      <li class="download-options__item">
+        <a class="download-item__image" href="#"> <img src="placeholder" width="100" height="50" alt="download app Microsoft"></a>
+      </li>
+    </ul>
+    <p class="download-options__text">
+      Достпуно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+    </p>
+  </section>
+  <section class="advantages">
+    <p class="advantages__item">Устали от серости мегаполиса?</p>
+    <p class="advantages__item">Нам есть, что вам предложить!</p>
+    <ul class="advantages__list">
+      <li class="advantages__list">
+        <h3 class="advantages__heading">
+          Поднимает настроение
+        </h3>
+        Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+      </li>
+      <li class="advantages__list">
+        <h3 class="advantages__heading">
+          Меняет мир вокруг
+        </h3>
+        Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилисть эффект
+      </li>
+      <li class="advantages__list">
+        <h3 class="advantages__heading">
+          Заводит новых друзей
+        </h3>
+        Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+      </li>
+    </ul>
+  </section>
+</main>
 
-  </body>
+<footer class="footer">
+  <a class="footer__logo" href="index.html"> <img class="page-footer__logo-image" src="placeholder" width="100" height="50" alt="логотип pink">
+  </a>
+  <ul class="footer__social">
+    <li class="footer__item">
+      <a href="https://twitter.com/" aria-label="Twitter">
+        <img class="social-media__item" src="placeholder" width="100" height="50" alt="Наш аккаунт в twitter">
+      </a>
+    </li>
+    <li class="footer__item">
+      <a href="https://facebook.com/" aria-label="Facebook">
+        <img class="social-media__item" src="placeholder" width="100" height="50" alt="Наш аккаунт в facebook">
+      </a>
+    </li>
+    <li class="footer__item">
+      <a href="https://youtube.com/" aria-label="YouTube">
+        <img class="social-media__item" src="placeholder" width="100" height="50" alt="Наш аккаунт в youtube">
+      </a>
+    </li>
+  </ul>
+  <a class="footer__link" href="#">Разработано<img src="logo-htmlacademy.svg" width="115" height="41" alt="Логотип html academy"></a>
+</footer>
+</body>
 </html>
