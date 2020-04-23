@@ -11,12 +11,3 @@
   background-color: transparent;
   font: inherit;
 }
-
-@mixin FontBold {
-  font-style: normal;
-  font-weight: 600;
-}
-
-@mixin link {
-  color: #d22856;
-}

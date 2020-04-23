@@ -34,6 +34,83 @@
     <h1 class="hero__title">Конкурс на самое безбашенное путешествие с пин</h1>
     <h2 class="hero__title__text">Поделитесь своей историей и получите шанс выиграть приз - 1000 миль на вашу бонусную карту!</h2>
   </section>
+  <form class="story-form" action="https://echo.htmlacademy.ru/" method="post">
+    <div class="story-form__name">
+      <div class="story-form__name-field">
+        <label for="name-field">Фамилия:</label>
+        <input type="text" id="name-field" name="name-field" placeholder="Укажите фамилию *" required>
+      </div>
+      <div class="story-form__name-field">
+        <label for="lastname-field">Имя:</label>
+        <input type="text" id="lastname-field" name="lastname-field" placeholder="Введите ваше имя *" required>
+      </div>
+      <div class="story-form__name-field">
+        <label for="patronymic-field">Отчество:</label>
+        <input type="text" id="patronymic-field" name="patronymic-field" placeholder="Ну и отчество тоже">
+      </div>
+    </div>
+    <div class="story-form__wrapper-achievements">
+      <div class="story-form__achievements">
+        <h2>Ваши безбашенные достижения в путешествии</h2>
+        <div class="story-form__achievements-wrapper">
+          <div class="story-form__achievements-field">
+            <label><input type="checkbox" name="shark" checked=""><span class="checkbox-indicator"></span>Сделал селфи с акулой</label>
+          </div>
+          <div class="story-form__achievements-field">
+            <label><input type="checkbox" name="beach" checked=""><span class="checkbox-indicator"></span>Обгорел на пляже</label>
+          </div>
+          <div class="story-form__achievements-field">
+            <label><input type="checkbox" name="chak"><span class="checkbox-indicator"></span>Видел Чака Норриса</label>
+          </div>
+          <div class="story-form__achievements-field">
+            <label><input type="checkbox" name="souvenirs"><span class="checkbox-indicator"></span>Накупил сувениров</label>
+          </div>
+          <div class="story-form__achievements-field">
+            <label><input type="checkbox" name="tower" checked=""><span class="checkbox-indicator"></span>Удержал башню</label>
+          </div>
+          <div class="story-form__achievements-field">
+            <label><input type="checkbox" name="hotel"><span class="checkbox-indicator"></span>Разгромил отель</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="story-form__contacts">
+      <h2>Контактная информация</h2>
+      <div class="story-form__contacts-wrapper">
+        <div class="story-form__contacts-field">
+          <label for="phone">Номер телефона</label>
+          <input type="tel" id="phone" name="phone" placeholder="Номер, пожалуйста">
+          <span class="story-form__contacts-icon-phone"></span>
+        </div>
+        <div class="story-form__contacts-field">
+          <label for="mail">Адрес почты</label>
+          <input type="email" id="mail" name="mail" placeholder="Введите почту *" required>
+          <span class="story-form__contacts-icon-mail"></span>
+        </div>
+      </div>
+    </div>
+    <div class="story-form__wrapper-apps">
+      <div class="story-form__apps">
+        <h2>С каким приложением путешествовали?</h2>
+        <div class="story-form__apps-field">
+          <label><input type="radio" name="app-name" checked><span class="checkbox-indicator"></span>Pink для iOS</label>
+        </div>
+        <div class="story-form__apps-field">
+          <label><input type="radio" name="app-name"><span class="checkbox-indicator"></span>Pink на Android</label>
+        </div>
+        <div class="story-form__apps-field">
+          <label><input type="radio" name="app-name"><span class="checkbox-indicator"></span>Windows Phone</label>
+        </div>
+      </div>
+    </div>
+    <div class="story-form__emotions">
+      <h2>Опишите свои эмоции</h2>
+      <textarea name="emotions-field" rows="3">Можно прям в красках, не стесняясь в выражениях</textarea>
+    </div>
+    <div class="story-form__btn-block">
+      <button class="btn btn--story-form" type="submit">Отправить форму</button>
+    </div>
+  </form>
 </main>
 
 <footer class="footer">

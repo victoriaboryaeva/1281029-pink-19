@@ -1,11 +1,29 @@
 .main-nav {
+  overflow: hidden;
+  display: block;
+  border: solid 1px white;
+  background-color: black;
+  opacity: 0.3;
   position: relative;
-  display: inline-block;
 }
 
 .site-list__item {
-  display: flex;
-  width: 100%;
-  background-color: #f9f9f9;
-  text-align: center;
+  overflow: hidden;
+  display: block;
+  border: solid 1px white;
+  background-color: black;
+  opacity: 0.3;
+  position: relative;
+  color: white;
+  align-items: center;
 }
+
+.main-nav__toggle {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
