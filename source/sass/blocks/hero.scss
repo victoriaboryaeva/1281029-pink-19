@@ -1,12 +1,11 @@
 .hero {
   background-image: url("../img/bg-back-mobile@1x.jpg");
-  backgorund-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 50px;
 }
 
 .hero__title {
-  text-transform: uppercase;
   color: #ffffff;
   font-weight: 300;
   font-size: 24px;

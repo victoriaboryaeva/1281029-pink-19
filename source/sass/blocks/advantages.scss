@@ -1,0 +1,22 @@
+.advantages__item {
+  color: $main-color;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+}
+
+.advantages__list{
+  @include ulres;
+
+  color: #000000;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+
+.advantages__heading {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}

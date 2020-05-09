@@ -1,1 +1,27 @@
+.download__options {
+  display: flex;
+  width: 100%;
+  height: 65px;
+}
 
+.download__item {
+  @include ulres;
+
+  padding: 0px 57px;
+}
+
+.download__link {
+  @include inpress;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.download__text {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
